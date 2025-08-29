@@ -1,3 +1,7 @@
+[![Twitter Follow](https://img.shields.io/twitter/follow/useactions?style=social)](https://x.com/useactions)
+[![License](https://img.shields.io/github/license/actionsprotocol/actions-protocol-markets)](LICENSE)
+[![Issues](https://img.shields.io/github/issues/actionsprotocol/actions-protocol-markets)](https://github.com/actionsprotocol/actions-protocol-markets/issues)
+
 # Action Protocol Markets SDK
 
 A TypeScript SDK for interacting with Action Protocol Markets on Solana. Built with pure `@solana/web3.js` - no Anchor dependency required.
