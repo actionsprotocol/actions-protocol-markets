@@ -1,0 +1,35 @@
+{
+  "name": "@useactions/action-protocol-markets",
+  "version": "0.1.0",
+  "description": "TypeScript SDK for Action Protocol Markets",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "node dist/examples/sdk-full-flow-test.js"
+  },
+  "keywords": [
+    "solana",
+    "action-protocol",
+    "prediction-markets",
+    "betting",
+    "web3"
+  ],
+  "author": "Actions Protocol",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^1.95.2",
+    "bn.js": "^5.2.1",
+    "bs58": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.5",
+    "@types/bs58": "^4.0.4",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "dist/**/*"
+  ]
+}
